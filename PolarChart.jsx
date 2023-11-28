@@ -4,7 +4,7 @@ import {useMediaQuery} from "@mui/material";
 
 const PolarChart = ({data}) => {
     const theme = useTheme();
-    const upperMd = useMediaQuery((theme.breakpoints.up("md"))) 
+    const upperMd = useMediaQuery((theme.breakpoints.up("md")))
     const specialOption = {
         title: {
             text: undefined,
