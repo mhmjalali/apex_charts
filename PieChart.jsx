@@ -27,7 +27,7 @@ const Pie = ({data}) => {
     };
     const series = data.map((item) => +item.percentage)
     return (
-        <Chart chartId="LoanDistributionPie" type="pie" specialOption={specialOption} series={series}/>
+        <Chart chartId="Pie" type="pie" specialOption={specialOption} series={series}/>
     )
 };
 
