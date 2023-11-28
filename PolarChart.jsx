@@ -4,7 +4,7 @@ import {useMediaQuery} from "@mui/material";
 
 const PolarChart = ({data}) => {
     const theme = useTheme();
-    const upperMd = useMediaQuery((theme.breakpoints.up("md")))
+    const upperMd = useMediaQuery((theme.breakpoints.up("sm")))
     const specialOption = {
         title: {
             text: undefined,
@@ -34,7 +34,7 @@ const PolarChart = ({data}) => {
     };
     const series = data.map((item) => +item.percentage)
     return (
-        <Chart chartId="LoanDistributionPolar" type="polarArea" specialOption={specialOption} series={series}/>
+        <Chart chartId="Polar" type="polarArea" specialOption={specialOption} series={series}/>
     )
 };
 
