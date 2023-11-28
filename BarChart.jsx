@@ -58,7 +58,7 @@ const BarChart = ({data}) => {
         },
     ];
 
-    return <Chart chartId="LoanProgressBar" type="bar" specialOption={specialOption} series={series}/>;
+    return <Chart chartId="ProgressBar" type="bar" specialOption={specialOption} series={series}/>;
 };
 
 export default BarChart;
