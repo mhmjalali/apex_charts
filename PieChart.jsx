@@ -5,7 +5,7 @@ import {useMediaQuery} from "@mui/material";
 
 const Pie = ({data}) => {
     const theme = useTheme();
-    const upperMd = useMediaQuery((theme.breakpoints.up("md")))
+    const upperMd = useMediaQuery((theme.breakpoints.up("sm")))
     const specialOption = {
         title: {
             text: undefined,
