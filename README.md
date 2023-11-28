@@ -14,4 +14,4 @@ This repository contains three common chart examples—Bar, Pie, and Polar—usi
 - **Options**: Global and specific options for each chart type are defined within the components.
 - **Series**: Data supplied to ApexChart shapes the visual representation. Each chart has a unique data structure.
 
-##### Note: I use a `calculateGradientColor` function in the bar chart, which takes a number from 0 to 100 and generates a gradient color based on it.
+##### Note: I use `calculateGradientColor` function in the bar chart, which takes a number from 0 to 100 and generates a gradient color based on it.
